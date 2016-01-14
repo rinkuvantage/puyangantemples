@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+a{text-decoration:none;}
+.error
+{
+	color:#CC0000;
+}
+.donotshowerror label.error
+{
+	display: none !important;
+}
+label.error
+{
+	margin-left:10px;
+}
+input.error, select.error,textarea.error, checkbox.error
+{
+	color:#000000;
+	border:1px solid #CC0000 !important;
+}
+input[type='checkbox'].error
+{
+	border: solid #CC0000;
+	outline:1px solid #CC0000 !important;
+}
+.personal_info{float:left; width:160px;}
+.e-mail{ clear:both;}
+.adress{ width:168px; float:left; text-align:left; font-size:13px; color:#454546;}
+.field{ float:left; width:600px;}
+input[type="checkbox"]{ width:0 !important; height:0px !important; padding:0 !important; border:1px solid #c7cecf;  border:1px solid #c7cecf; margin:0px !important; background:#f0f0f0; }
+.dropdown-menu a
+{
+	color:#000 !important;
+	text-decoration:none;
+}
+.field input, .field select{ width:324px; height:30px; padding:0 !important; border:1px solid #c7cecf;  border:1px solid #c7cecf; margin:0px 0px 10px 0; background:#f0f0f0; }
+.field textarea{ width:500px; padding:0 !important; border:1px solid #c7cecf;  border:1px solid #c7cecf; margin:0px 0px 10px 0; background:#f0f0f0; }
+.profile .green-submit-btn input[type="submit"], .profile .green-submit-btn input[type="button"]{ width:152px; border:1px solid #b4babb; height: 45px; line-height:45px; text-align:center; color:#000; font-size:17px; font-weight:bold; border-radius:5px; display:block; font-family:Arial, Helvetica, sans-serif; cursor:pointer; }
+.profile .green-submit-btn input[type="button"]{ margin-left:20px;}
+.field .wp-core-ui input, .field .wp-core-ui select{ width:auto; height:auto;}
+input, select, textarea{float:left;}
+.clr{clear:both;}
+.mr5{margin-right:5px;}
+.removeday, .addday{float:left; color:#FF0000; font-size:18px; text-decoration:none; margin-left:10px;}.addday{color:#0000FF;}
+.tt{float:left; width:70px;}
+.sparator{width:600px; margin:5px 0px; height:1px; border-bottom:1px solid #000000;} 
+.ml10{margin-left:10px;}
+ul.tabs {
+  font-size: 0;
+  list-style-type: none;
+  margin: 0 0 0 10px;
+  padding: 7px 0;
+  text-align: left;
+}
+        
+ul.tabs li
+{
+    display: inline;
+    margin: 0;
+    margin-right:0px; /*distance between tabs*/
+}
+        
+ul.tabs li a {
+  background: #000;
+  border-right: 1px solid #fff;
+  color: #fff !important;
+  font: 16px arial;
+  outline: medium none;
+  padding: 11px 23px;
+  position: relative;
+  text-decoration: none;
+}
+   
+ul.tabs li.selected a, ul.tabs li.selected a:hover
+{
+    position: relative;
+    top: 0px;
+    background: #ebe4d9;
+    border: 1px solid #ebe4d9;
+    border-bottom-color: #ebe4d9;
+	color:#8b2305 !important;
+}
+        
+        
+ul.tabs li.selected a:hover
+{
+    text-decoration: none;
+}
+    
+div.tabcontents {
+  background-color: #fff;
+  border-radius: 0 3px 3px;
+  padding: 30px 10px;
+}
+
+table td,table th{padding:5px;}
+.pagination{ float:left; line-height:30px; font-size:14px; font-weight:bold;}
+.pagination span{background:#f6f6f6; color:#000; padding:0px 10px; text-decoration:underline;}
+.pagination a{background:#FFFFFF color:#0000FF; padding:0px 10px; text-decoration:none;}
+.pagination a:hover{text-decoration:underline;}
+ul.config{	padding:10px;	margin:0px;}
+ul.config li{	display:inline;	float:left;	padding:0px 10px;}
+ul.config li a{	text-decoration:none;	color:#000066;}
+ul.config li a:hover, ul.config li a.active{	text-decoration:underline;	color:#990000;}
+.clr{clear:both;}
+
+.add-new
+{
+	padding:3px;
+	background:#999;
+	color:#fff;
+	display:inline-block;
+	font-weight:bold;
+	float:right;
+}
+.fl{float:left;}
+.fr{float:right;}
+.ml10{ margin-left:10px;}
+input[type="submit"],input[type="button"]{margin-right:10px; background:#CCCCCC; width:100px; cursor:pointer;}

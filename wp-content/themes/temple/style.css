@@ -1,0 +1,106 @@
+/*  
+Theme Name: Temple
+Theme URI: http://www.vantagewebtech.com/
+Description: puyangan.com
+Author: Rinku Kamboj
+Author URI: http://www.vantagewebtech.com
+
+*/
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+.addtocart{border:none; outline:none; background:#FA9F38 url("images/cart.png") no-repeat scroll 5px 5px; color:#ffffff; padding:6px 15px 6px 30px; cursor:pointer; font-weight:bold; margin-left:10px; float:left;}
+p.price{float:left; max-width:80%; min-width:25%;}
+.addtocartform{margin-top:15px;}
+.addtocart:hover{background:#FA9F38 url("images/cart2.png") no-repeat scroll 5px 5px;}
+.status {
+    background: #F2F2F2;
+    border: 1px solid #c24d1d;
+    color: #c24d1d;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 7px 1%;
+	width:100%;
+}
+.paymentgateways{position:relative; width:100%;}
+.paymentgateways .field{width:40%; float:left;}
+.paymentgateways .field input{float:left; width:20px;}
+.paymentgateways .field label{float:left; line-height:1;}
+.paymentgateways .checkoutbtn{width:30%; margin:0 auto; float:none;}
+#loadingajax{width:100%; position:absolute; height:90px; top:-5px; left:0px; background:#CCCCCC; opacity:0.5; z-index:999999; display:none;}
+.mid_content label, .mid_content input[type="submit"]{ cursor:pointer;}
+.addingtocart{ position:relative;}
+.addingtocart .addtocartoverlay{position:absolute; top:0px; left:0px; background:#666666; z-index:999999; opacity:0.5; width:100%; height:100%; display:none;}
